@@ -2,6 +2,8 @@ staging-web.2i.at
 tls hello@2innovate.at
  
 root /srv/2i
+
+basicauth / 2i-staging letMeInNotGooglebot
  
 git {
    repo git@github.com:2innovate/2innovate.at
